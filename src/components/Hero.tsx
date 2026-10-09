@@ -155,12 +155,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
 
               <div className="flex items-center gap-6 text-white/85">
                 <a
-                  href="https://cienceleads.com/"
+                  href="https://shakilsrker.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white hover:scale-110 transition-all p-0.5"
                   aria-label="Website"
-                  title="cienceleads.com"
+                  title="shakilsrker.vercel.app"
                 >
                   <Globe size={20} />
                 </a>

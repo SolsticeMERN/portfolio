@@ -77,7 +77,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
         {/* Resume Preview Container (Clean White Executive Sheet) */}
         <div className="flex-1 overflow-y-auto p-4 sm:p-8 bg-[#0B0C0E]/90 flex justify-center">
           <div className="bg-white text-[#111827] w-full max-w-[800px] p-8 sm:p-12 shadow-2xl rounded-sm font-['Inter',sans-serif] text-[11px] leading-[1.45] select-text">
-            
+
             {/* Header */}
             <div className="text-center mb-4">
               <h1 className="text-2xl font-bold tracking-tight text-[#111827] mb-1">
@@ -92,7 +92,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
                 <span>•</span>
                 <a href="https://www.linkedin.com/in/shakilleadgen/" target="_blank" rel="noreferrer" className="text-[#1D4ED8] underline">linkedin.com/in/shakilleadgen</a>
                 <span>•</span>
-                <a href="https://cienceleads.com/" target="_blank" rel="noreferrer" className="text-[#1D4ED8] underline">cienceleads.com</a>
+                <a href="https://shakilsrker.vercel.app/" target="_blank" rel="noreferrer" className="text-[#1D4ED8] underline">shakilsrker.vercel.app</a>
               </div>
             </div>
 

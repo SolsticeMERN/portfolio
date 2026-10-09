@@ -135,7 +135,7 @@ def create_resume(output_path):
         "shakil.srkr.bd@gmail.com &nbsp;•&nbsp; "
         "+8801783025100 &nbsp;•&nbsp; "
         '<a href="https://www.linkedin.com/in/shakilleadgen/" color="#1D4ED8"><u>linkedin.com/in/shakilleadgen</u></a> &nbsp;•&nbsp; '
-        '<a href="https://cienceleads.com/" color="#1D4ED8"><u>cienceleads.com</u></a>'
+        '<a href="https://shakilsrker.vercel.app/" color="#1D4ED8"><u>shakilsrker.vercel.app</u></a>'
     )
     story.append(Paragraph(contact_line, contact_style))
     story.append(Spacer(1, 6))

@@ -8,6 +8,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { aboutNarrative, profileData } from '../data/portfolioData';
+import { ProfessionalSnapshot } from './ProfessionalSnapshot';
 
 const highlights = [
   {
@@ -129,7 +130,9 @@ export const About: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-24 rounded-2xl border border-white/[0.08] bg-[#111317]/70 p-7 sm:px-8 sm:py-7">
+        <ProfessionalSnapshot />
+
+        <div className="mt-6 rounded-2xl border border-white/[0.08] bg-[#111317]/70 p-7 sm:px-8 sm:py-7">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <p className="text-[10px] font-bold uppercase tracking-[0.17em] text-[#778195]">Organizations &amp; Platforms</p>
             <div className="flex flex-wrap items-center gap-x-7 gap-y-4 text-sm font-medium text-[#A8B0BC]">
