@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md Shakil Sarker — Executive ATS Resume</title>
+  <meta name="description" content="Official ATS-optimized single-column executive resume of Md Shakil Sarker.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: letter;
+      margin: 0.4in;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #f3f4f6;
+      color: #111827;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+    }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      background: #111827;
+      color: #fff;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .toolbar a, .toolbar button {
+      background: #2563eb;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-left: 8px;
+    }
+    .toolbar a.back-btn {
+      background: #374151;
+    }
+    .toolbar a:hover, .toolbar button:hover {
+      opacity: 0.9;
+    }
+    .resume-page {
+      max-width: 8.5in;
+      min-height: 11in;
+      margin: 24px auto;
+      background: #ffffff;
+      padding: 0.45in 0.5in;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border-radius: 2px;
+    }
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #111827;
+      margin-bottom: 4px;
+    }
+    .contact-line {
+      font-size: 10.5px;
+      color: #4b5563;
+    }
+    .contact-line a {
+      color: #1d4ed8;
+      text-decoration: underline;
+    }
+    /* Section Headings */
+    .section-title {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #111827;
+      margin-top: 10px;
+      margin-bottom: 3px;
+      display: flex;
+      flex-direction: column;
+    }
+    .section-divider {
+      height: 1px;
+      background: #374151;
+      width: 100%;
+      margin-top: 2px;
+      margin-bottom: 6px;
+    }
+    /* Entry Rows */
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 5px;
+    }
+    .entry-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #111827;
+    }
+    .entry-meta-right {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #374151;
+      text-align: right;
+    }
+    .entry-subtitle {
+      font-size: 11px;
+      color: #374151;
+      margin-bottom: 3px;
+    }
+    p.summary-text {
+      font-size: 10.5px;
+      color: #1f2937;
+      text-align: justify;
+      margin-bottom: 6px;
+    }
+    ul.bullets {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 6px;
+    }
+    ul.bullets li {
+      position: relative;
+      padding-left: 14px;
+      margin-bottom: 2.5px;
+      font-size: 10.5px;
+      color: #1f2937;
+    }
+    ul.bullets li::before {
+      content: "•";
+      position: absolute;
+      left: 2px;
+      color: #111827;
+      font-weight: bold;
+    }
+    /* Skills Table */
+    .skills-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      margin-top: 4px;
+    }
+    .skill-row {
+      display: flex;
+      font-size: 10.5px;
+      line-height: 1.4;
+    }
+    .skill-category {
+      font-weight: 700;
+      color: #111827;
+      width: 140px;
+      flex-shrink: 0;
+    }
+    .skill-items {
+      color: #1f2937;
+      flex-grow: 1;
+    }
+    /* Print media styling */
+    @media print {
+      body {
+        background: #fff;
+      }
+      .toolbar {
+        display: none !important;
+      }
+      .resume-page {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        max-width: 100%;
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="toolbar">
+    <div>
+      <strong>Md Shakil Sarker — Executive ATS Resume</strong>
+      <span style="opacity: 0.7; font-size: 11px; margin-left: 10px;">Single-Column High-ATS Format</span>
+    </div>
+    <div>
+      <a href="/" class="back-btn">← Back to Portfolio</a>
+      <button onclick="window.print()">🖨️ Print / Save as PDF</button>
+      <a href="/Md_Shakil_Sarker_Resume.pdf" download="Md_Shakil_Sarker_Resume.pdf">📥 Download PDF</a>
+    </div>
+  </div>
+
+  <main class="resume-page">
+    
+    <!-- Header -->
+    <header>
+      <h1>Md Shakil Sarker</h1>
+      <div class="contact-line">
+        Bogura, Bangladesh &nbsp;•&nbsp; 
+        <a href="mailto:shakil.srkr.bd@gmail.com">shakil.srkr.bd@gmail.com</a> &nbsp;•&nbsp; 
+        +8801783025100 &nbsp;•&nbsp; 
+        <a href="https://www.linkedin.com/in/shakilleadgen/" target="_blank">linkedin.com/in/shakilleadgen</a> &nbsp;•&nbsp; 
+        <a href="https://cienceleads.com/" target="_blank">cienceleads.com</a>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <div class="section-title">Professional Summary</div>
+      <div class="section-divider"></div>
+      <p class="summary-text">
+        Versatile professional with corporate employment and freelance experience specializing in B2B lead generation, online business research, data management, client communication, and digital marketing. Holds a Bachelor of Education (B.Ed.) in Science Education from Khulna University (CGPA 3.58/4.00) with published empirical research in secondary mathematics pedagogy. Knowledgeable in Google Ads, Meta Ads, SEO, email marketing, and market research. Demonstrates strong analytical, organizational, and cross-functional leadership abilities suited for banking, corporate operations, digital marketing, and administration.
+      </p>
+    </section>
+
+    <!-- Professional Experience -->
+    <section>
+      <div class="section-title">Professional Experience</div>
+      <div class="section-divider"></div>
+
+      <!-- Experience 1 -->
+      <div class="entry-header">
+        <span class="entry-title">Freelance Lead Generation Specialist</span>
+        <span class="entry-meta-right">January 2021 — Present | Remote</span>
+      </div>
+      <div class="entry-subtitle">Independent Freelance Professional (Fiverr &amp; Upwork)</div>
+      <ul class="bullets">
+        <li>Delivered end-to-end B2B lead generation, prospect identification, and web research services to international business clients.</li>
+        <li>Conducted targeted LinkedIn research and curated verified decision-maker contact lists tailored to niche industry criteria.</li>
+        <li>Executed multi-step data verification to eliminate duplicate records, validate email deliverability, and maintain CRM hygiene.</li>
+        <li>Managed client project requirements, maintained prompt async communication, and delivered structured spreadsheets on schedule.</li>
+        <li><strong>Areas of Expertise:</strong> B2B Sales &amp; Lead Generation, CRM Data Management, Online Research, Client Coordination.</li>
+      </ul>
+
+      <!-- Experience 2 -->
+      <div class="entry-header">
+        <span class="entry-title">Lead Generation Specialist</span>
+        <span class="entry-meta-right">August 2021 — February 2023 | Remote</span>
+      </div>
+      <div class="entry-subtitle">SJ Innovation LLC (IT &amp; Software Development)</div>
+      <ul class="bullets">
+        <li>Conducted strategic B2B lead generation and targeted online research to identify prospective enterprise and mid-market accounts.</li>
+        <li>Researched, verified, and organized business contact intelligence across multiple international commercial sectors.</li>
+        <li>Maintained CRM data accuracy and upheld quality benchmarks through systematic data cleansing and email domain verification.</li>
+        <li>Collaborated cross-functionally with sales and marketing teams to align prospect lists with campaign parameters and strict delivery timelines.</li>
+        <li><strong>Areas of Expertise:</strong> B2B Lead Prospecting, CRM Data Organization, Prospect Verification, Account Discovery.</li>
+      </ul>
+    </section>
+
+    <!-- Academic Research & Publication -->
+    <section>
+      <div class="section-title">Academic Research &amp; Publication</div>
+      <div class="section-divider"></div>
+      <div class="entry-header">
+        <span class="entry-title">Effect of Student-Centered Teaching on Mathematics Performance at Secondary Level</span>
+        <span class="entry-meta-right">Published: September 12, 2024 | ResearchGate</span>
+      </div>
+      <ul class="bullets" style="margin-top: 4px;">
+        <li>Conducted empirical research investigating how student-centered pedagogical models impact academic performance in secondary mathematics.</li>
+        <li>Utilized a quasi-experimental design and convenience sampling to assess comparative gains between experimental and control cohorts.</li>
+        <li>Publication URL: <a href="https://www.researchgate.net/publication/387678538_Effect_of_Student-Centered_Teaching_Approach_on_Academic_Performance_in_Mathematics_at_the_Secondary_School_Level" target="_blank" style="color:#1d4ed8;">researchgate.net/publication/387678538</a></li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <div class="section-title">Education</div>
+      <div class="section-divider"></div>
+      <div class="entry-header">
+        <span class="entry-title">Bachelor of Education (B.Ed.) in Science Education</span>
+        <span class="entry-meta-right">Graduated 2023 | Khulna, Bangladesh</span>
+      </div>
+      <div class="entry-subtitle">Khulna University &nbsp;•&nbsp; 4-Year Full-Time Degree Program &nbsp;•&nbsp; <strong>CGPA: 3.58 / 4.00</strong></div>
+    </section>
+
+    <!-- Leadership & Extracurricular Achievements -->
+    <section>
+      <div class="section-title">Leadership &amp; Extracurricular Achievements</div>
+      <div class="section-divider"></div>
+      <ul class="bullets">
+        <li><strong>University Athletics Captaincy:</strong> Served as Captain of the Khulna University Men's Cricket Team and Men's Volleyball Team; official Trainer for the University Women's Volleyball Team.</li>
+        <li><strong>Annual Tour Leadership:</strong> Directed Khulna University annual tours for 3 consecutive years; coordinated logistics, lodging, transport, safety, and budget for groups of 70–80 participants.</li>
+        <li><strong>Event Organization &amp; Honors:</strong> Organized institutional debates, academic seminars, and school programs; earned multiple sports medals, awards, and certificates in cricket, football, volleyball, and badminton.</li>
+      </ul>
+    </section>
+
+    <!-- Skills & Competencies -->
+    <section>
+      <div class="section-title">Skills &amp; Competencies</div>
+      <div class="section-divider"></div>
+      <div class="skills-grid">
+        <div class="skill-row">
+          <div class="skill-category">Digital Marketing:</div>
+          <div class="skill-items">Google Ads, Meta Ads, Search Engine Optimization (SEO), Email Marketing, Advertising &amp; Promotion, Market Research</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-category">Research &amp; Data:</div>
+          <div class="skill-items">B2B Lead Generation, LinkedIn Research, CRM Data Management, Data Verification, Online Market Research, Business Research</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-category">Professional Skills:</div>
+          <div class="skill-items">Client Communication, Analytical Thinking, Problem Solving, Project Coordination, Time Management, Team Leadership</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-category">Technical Tools:</div>
+          <div class="skill-items">CRM Platforms, LLM-Based Tools, Slack, Discord, Google Workspace, Advanced Spreadsheets</div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-category">Languages:</div>
+          <div class="skill-items">Bengali (Native / High Proficiency), English (High Professional Working Proficiency)</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

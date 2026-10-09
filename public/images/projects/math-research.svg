@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="researchBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151921"/>
+      <stop offset="100%" stop-color="#0E1217"/>
+    </linearGradient>
+    <linearGradient id="emeraldBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="blueBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3478F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="12" fill="url(#researchBg)"/>
+  <rect x="0.5" y="0.5" width="599" height="379" rx="11.5" fill="none" stroke="rgba(255,255,255,0.08)"/>
+
+  <!-- Top Academic Badge Header -->
+  <rect x="24" y="24" width="552" height="42" rx="8" fill="#1C212A" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="36" y="33" width="90" height="24" rx="4" fill="#3478F6" opacity="0.2"/>
+  <text x="81" y="49" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">PEER REVIEW</text>
+  <text x="140" y="49" fill="#A8B0BC" font-family="system-ui, sans-serif" font-size="12" font-weight="500">Publication Date: 12 September 2024</text>
+  <rect x="445" y="33" width="115" height="24" rx="12" fill="#00CCBB" opacity="0.15"/>
+  <text x="502" y="49" fill="#00CCBB" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">ResearchGate DOI</text>
+
+  <!-- Paper Title Banner inside preview -->
+  <rect x="24" y="80" width="552" height="74" rx="8" fill="#202632" stroke="rgba(255,255,255,0.05)"/>
+  <text x="44" y="106" fill="#F5F6F8" font-family="system-ui, sans-serif" font-size="15" font-weight="700">Effect of Student-Centered Teaching on Mathematics Performance</text>
+  <text x="44" y="126" fill="#8E97A6" font-family="system-ui, sans-serif" font-size="12">Quasi-Experimental Design | Secondary Education Science &amp; Mathematics</text>
+  <text x="44" y="142" fill="#3478F6" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Investigating active pedagogy vs traditional lecture benchmarks</text>
+
+  <!-- Quasi-Experimental Comparison Mockup -->
+  <rect x="24" y="168" width="552" height="188" rx="8" fill="#181D25" stroke="rgba(255,255,255,0.05)"/>
+
+  <!-- Legend -->
+  <circle cx="44" cy="192" r="5" fill="#3478F6"/>
+  <text x="56" y="196" fill="#D1D5DB" font-family="system-ui, sans-serif" font-size="11">Experimental Group (Student-Centered)</text>
+  <circle cx="280" cy="192" r="5" fill="#6B7280"/>
+  <text x="292" y="196" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">Control Group (Traditional Instruction)</text>
+
+  <!-- Pre-test Comparison -->
+  <text x="44" y="232" fill="#8E97A6" font-family="system-ui, sans-serif" font-size="11">Pre-Test Baseline (Homogeneous)</text>
+  <!-- Bar 1 -->
+  <rect x="44" y="242" width="220" height="14" rx="3" fill="#374151"/>
+  <!-- Bar 2 -->
+  <rect x="274" y="242" width="215" height="14" rx="3" fill="#374151" opacity="0.7"/>
+
+  <!-- Post-test Comparison -->
+  <text x="44" y="286" fill="#8E97A6" font-family="system-ui, sans-serif" font-size="11">Post-Test Academic Achievement (Statistically Significant p &lt; 0.05)</text>
+  <!-- Bar Experimental (Higher) -->
+  <rect x="44" y="296" width="360" height="18" rx="4" fill="url(#blueBar)"/>
+  <text x="415" y="310" fill="#60A5FA" font-family="system-ui, sans-serif" font-size="11" font-weight="700">+ Significant Gain</text>
+  <!-- Bar Control -->
+  <rect x="44" y="322" width="240" height="14" rx="3" fill="#4B5563"/>
+  <text x="295" y="333" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">Control Baseline</text>
+</svg>

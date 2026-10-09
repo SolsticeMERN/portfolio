@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #0B0C0E;
+    --bg-secondary: #0B0C0E;
+    --bg-card: #15171C;
+    --bg-card-hover: #1E2128;
+    --accent-blue: #3478F6;
+    --accent-blue-hover: #2563EB;
+    --text-primary: #F5F6F8;
+    --text-secondary: #A0A6B2;
+    --text-muted: #6B7280;
+    --border-subtle: rgba(255, 255, 255, 0.07);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #0B0C0E;
+    color: #F5F6F8;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0C0E;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C2027;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2D333E;
+}
+
+/* Smooth subtle transitions */
+.transition-smooth {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Glass & Card styles */
+.editorial-card {
+  background-color: #15171C;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.editorial-card:hover {
+  border-color: rgba(52, 120, 246, 0.35);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
+/* Section Eyebrow with blue slash */
+.eyebrow-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #F5F6F8;
+}
+
+.eyebrow-tag::before {
+  content: "/";
+  color: #3478F6;
+  font-weight: 800;
+  margin-right: 0.2rem;
+}
+
+/* About section: explicit spacing keeps its editorial layout consistent in Tailwind v4. */
+.about-section {
+  scroll-margin-top: 7rem;
+  padding-block: 8rem;
+}
+
+.about-highlight-card {
+  min-height: 16.25rem;
+}
+
+.experience-section {
+  scroll-margin-top: 7rem;
+  padding-block: 8rem;
+}
+
+.skill-card {
+  min-height: 22rem;
+}
+
+.project-card {
+  min-height: 31rem;
+}
+
+.content-section {
+  scroll-margin-top: 7rem;
+  padding-block: 8rem;
+}
+
+/* The closing panel uses a compact editorial footer rather than a second CTA. */
+.footer-statement {
+  border-radius: 2rem;
+}
+
+.footer-label {
+  margin-bottom: 1rem;
+  color: #737b8b;
+  font-size: 0.625rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #f5f6f8;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #78a7ff;
+}
+
+.footer-wordmark {
+  font-size: clamp(5.5rem, 19vw, 16.5rem);
+}
+
+@media (min-width: 1024px) {
+  .about-section {
+    scroll-margin-top: 8rem;
+    padding-block: 11rem;
+  }
+
+  .experience-section {
+    scroll-margin-top: 8rem;
+    padding-block: 11rem;
+  }
+
+  .content-section {
+    scroll-margin-top: 8rem;
+    padding-block: 11rem;
+  }
+
+  /* Create a clearer reading column without intruding on the right information rail. */
+  .hero-copy {
+    transform: translateX(-2.5rem);
+  }
+}
